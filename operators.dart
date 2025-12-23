@@ -37,7 +37,36 @@ print(j);
 print("values of j--:${j--}");
 print(j);
 print("values of --j:${--j}");
-
+print("Relation ------------------- operator");
+int q=2;
+int e=3;
+print(q == e);
+print(q!=e);
+print(q>e);
+print(q<e);
+print(q>=e);
+print(q<=b);
+print("logocal or (&&) ------ and ------logical and (||)");
+print(" in logical or if both are true then true otherwise false");
+print(" in logical and if both are false then false otherwise true");
+print(" and and or operator");
+var s=100;
+var f=100;
+var g=200;
+var d=200;
+print((s == f)&& (g == d));
+//print()
+var name="kk";
+//var num =32;
+print(name is int);
+print(name is String);
+print(name is! int);
+// assigment operator var n=10;
+/* n=n+5
+   n+=5
+   n=n-5;
+   n -=5;
+    */
 
 
 
