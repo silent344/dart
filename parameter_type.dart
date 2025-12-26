@@ -4,12 +4,13 @@ greet("Kritik");
 greet('Kritik','Mr.');
 greet2('Kritik','Mr.');
 greet3('Kritik');
+// below i chnage the default values
 greet3('silent','kk');
 //Required (Positional) Parameters
 add(10, 20); 
 
 
-// we try {}
+// we try {} which is named parameter
 greet4();
 greet4(name: 'kritik');
 greet4(title: 'Mr,', name: 'KRITIK');
@@ -31,6 +32,7 @@ print('greet3');
 void add(int a, int b) {
   print(a + b);
 }
+// named parameter {}
 void greet4({String name="Silent",String title ='friend'}) {
   print("hello $title $name");
 }
